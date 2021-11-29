@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import CardCover from "./components/cardcover";
+import CardInformation from "./components/cardinformation";
+import CarouselDate from "./components/carouseldate";
+import GlobalStyle from "./theme/globalStyle";
+import GlobalFonts from './assets/font/fonts'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+ <GlobalStyle />
+ <GlobalFonts />
+ <CardCover /> 
+ <CardInformation />
+ <CarouselDate /> 
+ </>
   );
 }
 
