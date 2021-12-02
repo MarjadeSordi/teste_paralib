@@ -12,6 +12,7 @@ const CarouselDate = () => {
 <Carousel>
   <Carousel.Item>
     <Box> 
+
    <Button variant="outline-primary"> 
    <DateforBoxLight> 20/12 - 12:30</DateforBoxLight> 
    <DayforBoxLight> qui </DayforBoxLight> 

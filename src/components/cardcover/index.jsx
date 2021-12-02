@@ -10,6 +10,7 @@ const CardCover = () => {
   <Card.Img src={queen} alt="Card image" />
   <Card.ImgOverlay>
     <Card.Title>Queen experience in concert - Porto Alegre</Card.Title>
+
   </Card.ImgOverlay>
 </Card>
 </CardImg>
